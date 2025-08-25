@@ -1,9 +1,8 @@
 import { SplashScreen } from 'expo-router';
 import { useEffect, useState } from 'react';
 
-export function SplashScreenController() {
+export default function SplashScreenController() {
   const [isLoading, setIsLoading] = useState(true);
-
 
   useEffect(() => {
     setTimeout(() => {
