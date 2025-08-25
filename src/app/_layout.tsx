@@ -9,7 +9,14 @@ export default function RootLayout() {
       }}
     >
       <Stack.Screen name="(main)" />
-      <Stack.Screen name="auth/login" />
+      <Stack.Screen name="auth/login" options={{
+        title: 'Login', // Impede voltar com gesto
+        gestureEnabled: false,
+        headerBackVisible: false, // Remove botão voltar do header
+        headerLeft: () => null, // Remove botão voltar do header
+        presentation: 'containedModal', // Bloqueia botão voltar do Android
+        animation: 'slide_from_bottom', // Animação diferente para indicar que é "modal"
+      }} />
     </Stack>
   )
 }
