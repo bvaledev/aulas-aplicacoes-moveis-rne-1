@@ -1,9 +1,9 @@
+import { useRouter } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { useState } from 'react';
-import { KeyboardAvoidingView, Platform, ScrollView, Text, TextInput, TouchableOpacity, View } from 'react-native';
+import { KeyboardAvoidingView, Platform, ScrollView, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 
-import { Alert } from './components/Alert';
-import { styles } from './styles';
+import { Alert } from '../../components/Alert';
 
 type UserLogin = {
   email: string,
@@ -16,8 +16,9 @@ const user: UserLogin = {
 }
 
 export default function App() {
-  const [email, setEmail] = useState<string>('')
-  const [senha, setSenha] = useState<string>('')
+  const router = useRouter()
+  const [email, setEmail] = useState<string>(user.email)
+  const [senha, setSenha] = useState<string>(user.senha)
   const [hasError, setError] = useState<boolean>(false)
 
   const platformKeyboardBehavior = Platform.OS === 'ios' ? 'padding' : 'height'
@@ -39,8 +40,10 @@ export default function App() {
       setError(true)
       return
     }
-    alert("válido")
+    router.replace('/tabs/profile')
   }
+
+
 
   return (
     <KeyboardAvoidingView style={{ flex: 1 }} behavior={platformKeyboardBehavior}>
@@ -89,3 +92,63 @@ export default function App() {
     </KeyboardAvoidingView>
   );
 }
+
+export const styles = StyleSheet.create({
+  container: {
+    backgroundColor: "#F0F4F7",
+    alignItems: "center",
+    justifyContent: "center",
+    padding: 20,
+    minHeight: "100%",
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: "bold",
+    color: "#1E3A5F",
+    marginBottom: 8,
+  },
+  subtitle: {
+    fontSize: 16,
+    color: "#5A7D9A",
+    marginBottom: 40,
+  },
+  form: {
+    width: "100%",
+    gap: 8
+  },
+  input: {
+    backgroundColor: "#d1d7dcff",
+    borderStyle: "solid",
+    borderColor: "#d0d1d3ff",
+    borderWidth: 2,
+    width: "100%",
+    height: 50,
+    alignItems: "center",
+    flexDirection: "row",
+    paddingVertical: 4,
+    paddingHorizontal: 12,
+    borderRadius: 8
+  },
+  inputText: {
+    color: "#a0a0a0ff",
+    fontSize: 18,
+    fontWeight: "bold",
+  },
+  button: {
+    width: "100%",
+    height: 50,
+    backgroundColor: "#104b99",
+    borderRadius: 8,
+    justifyContent: "center",
+    alignItems: "center",
+    marginTop: 20,
+  },
+  invalidButton: {
+    backgroundColor: "#536e92ff",
+  },
+  buttonText: {
+    color: "#FFFFFF",
+    fontSize: 18,
+    fontWeight: "bold",
+  },
+});
