@@ -1,7 +1,7 @@
-import { useRouter } from 'expo-router';
+import { useFocusEffect, useRouter } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
-import { useState } from 'react';
-import { KeyboardAvoidingView, Platform, ScrollView, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
+import { useCallback, useState } from 'react';
+import { BackHandler, KeyboardAvoidingView, Platform, ScrollView, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 
 import { Alert } from '../../components/Alert';
 
@@ -43,7 +43,18 @@ export default function App() {
     router.replace('/tabs/profile')
   }
 
-
+  useFocusEffect(
+    useCallback(() => {
+      const onBackPress = () => {
+        return true;
+      };
+      const subscription = BackHandler.addEventListener(
+        'hardwareBackPress',
+        onBackPress
+      );
+      return () => subscription?.remove();
+    }, [])
+  );
 
   return (
     <KeyboardAvoidingView style={{ flex: 1 }} behavior={platformKeyboardBehavior}>
