@@ -1,5 +1,4 @@
-import { Text, View } from "react-native"
-import { styles } from "../styles"
+import { StyleSheet, Text, View } from "react-native"
 
 type Props = {
     text: string
@@ -13,3 +12,15 @@ export function Alert({ text, hasError }: Props) {
         </View>
     )
 }
+
+export const styles = StyleSheet.create({
+    alertError: {
+        width: "100%",
+        backgroundColor: "#7d1a1aff",
+        borderRadius: 8,
+        padding: 20,
+    },
+    alertErrorText: {
+        color: "#e6ccccff",
+    }
+});
