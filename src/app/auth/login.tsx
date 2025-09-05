@@ -40,7 +40,10 @@ export default function App() {
       setError(true)
       return
     }
-    router.replace('/tabs/profile')
+    router.replace({
+      pathname: '/',
+      params: { email }
+    })
   }
 
   useFocusEffect(
