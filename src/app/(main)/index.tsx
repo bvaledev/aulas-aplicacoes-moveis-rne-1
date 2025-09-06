@@ -17,8 +17,14 @@ export default function HomeScreen() {
           <Link href="/tabs/profile" style={styles.link}>
             Ir para  perfil
           </Link>
+          <Link href="/produtos" style={styles.link}>
+            Produtos
+          </Link>
         </>
       )}
+      <Link href="/produtos" style={styles.link}>
+        Produtos
+      </Link>
     </View>
   );
 }
