@@ -1,0 +1,146 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Nintendo",
+      "parentId": 3
+    },
+    {
+      "id": 2,
+      "nome": "PlayStation",
+      "parentId": 3
+    },
+    {
+      "id": 3,
+      "nome": "Games",
+      "parentId": null
+    }
+  ],
+  "produtos": [
+    
+    {
+      "id": 2,
+      "cover": "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages8.kabum.com.br%2Fprodutos%2Ffotos%2F875818%2Fconsole-sony-playstation-5-slim-edicao-digital-ssd-1tb-controle-sem-fio-dualsense-2-jogos-digitais-1000038894_1750163329_gg.jpg&w=640&q=75",
+      "gallery": [
+        "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages8.kabum.com.br%2Fprodutos%2Ffotos%2F875818%2Fconsole-sony-playstation-5-slim-edicao-digital-ssd-1tb-controle-sem-fio-dualsense-2-jogos-digitais-1000038894_1750163329_gg.jpg&w=640&q=75",
+        "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages8.kabum.com.br%2Fprodutos%2Ffotos%2F875818%2Fconsole-sony-playstation-5-slim-edicao-digital-ssd-1tb-controle-sem-fio-dualsense-2-jogos-digitais-1000038894_1750163328_gg.jpg&w=640&q=75",
+        "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages8.kabum.com.br%2Fprodutos%2Ffotos%2F875818%2Fconsole-sony-playstation-5-slim-edicao-digital-ssd-1tb-controle-sem-fio-dualsense-2-jogos-digitais-1000038894_1750092912_gg.jpg&w=640&q=75",
+        "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages8.kabum.com.br%2Fprodutos%2Ffotos%2F875818%2Fconsole-sony-playstation-5-slim-edicao-digital-ssd-1tb-controle-sem-fio-dualsense-2-jogos-digitais-1000038894_1750092913_gg.jpg&w=640&q=75"
+      ],
+      "titulo": "Console Sony PlayStation 5 Slim, Edição Digital, SSD 1TB, Controle Sem Fio DualSense + 2 Jogos Digitais",
+      "descricao": "A Evolução do Jogo Chegou Descubra um novo universo de entretenimento com o Console PlayStation 5 Slim Edição Digital. Totalmente otimizado para mídias digitais, este console é a escolha perfeita para jogadores modernos. Equipado com um poderoso SSD de 1TB e o revolucionário controle sem fio DualSense, ele oferece uma experiência de jogo imersiva, rápida e visualmente deslumbrante.",
+      "preco": 3579.57,
+      "categoria": 2,
+      "avaliacao": {
+        "nota": 4.9,
+        "total_avaliacoes": 523
+      }
+    },
+    {
+      "id": 3,
+      "cover": "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages1.kabum.com.br%2Fprodutos%2Ffotos%2Fsync_mirakl%2F457421%2Fxlarge%2FConsole-Nintendo-Switch-Lite-32Gb-Azul-Nacional-Hbhsbbza1_1753974580.jpg&w=640&q=75",
+      "gallery": [
+        "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages1.kabum.com.br%2Fprodutos%2Ffotos%2Fsync_mirakl%2F457421%2Fxlarge%2FConsole-Nintendo-Switch-Lite-32Gb-Azul-Nacional-Hbhsbbza1_1753974580.jpg&w=640&q=75",
+        "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages1.kabum.com.br%2Fprodutos%2Ffotos%2Fsync_mirakl%2F457421%2Fxlarge%2FConsole-Nintendo-Switch-Lite-32Gb-Azul-Nacional-Hbhsbbza1_1753974581.jpg&w=640&q=75",
+        "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages1.kabum.com.br%2Fprodutos%2Ffotos%2Fsync_mirakl%2F457421%2Fxlarge%2FConsole-Nintendo-Switch-Lite-32Gb-Azul-Nacional-Hbhsbbza1_1753974583.jpg&w=640&q=75"
+      ],
+      "titulo": "Console Nintendo Switch Lite, 32GB, Azul, Nacional",
+      "descricao": "O Nintendo Switch Lite é dedicado para jogos portáteis, com design compacto e confortável. Compatível com todos os jogos do Nintendo Switch que suportam modo portátil. Com display nítido em LCD touchscreen de 5,5 polegadas, resolução de 1280x720p.",
+      "preco": 1799.90,
+      "categoria": 1,
+      "avaliacao": {
+        "nota": 0,
+        "total_avaliacoes": 0
+      }
+    },
+    {
+      "id": 4,
+      "cover": "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages1.kabum.com.br%2Fprodutos%2Ffotos%2F385191%2Fconsole-nintendo-switch-joy-con-neon-mario-kart-8-deluxe-3-meses-de-assinatura-nintendo-switch-online-azul-e-vermelho-hbdskabl2_1710513348_gg.jpg&w=640&q=75",
+      "gallery": [
+        "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages1.kabum.com.br%2Fprodutos%2Ffotos%2F385191%2Fconsole-nintendo-switch-joy-con-neon-mario-kart-8-deluxe-3-meses-de-assinatura-nintendo-switch-online-azul-e-vermelho-hbdskabl2_1710513348_gg.jpg&w=640&q=75",
+        "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages1.kabum.com.br%2Fprodutos%2Ffotos%2F385191%2Fconsole-nintendo-switch-joy-con-neon-mario-kart-8-deluxe-3-meses-de-assinatura-nintendo-switch-online-azul-e-vermelho-hbdskabl2_1663591271_gg.jpg&w=640&q=75",
+        "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages1.kabum.com.br%2Fprodutos%2Ffotos%2F385191%2Fconsole-nintendo-switch-joy-con-neon-mario-kart-8-deluxe-3-meses-de-assinatura-nintendo-switch-online-azul-e-vermelho-hbdskabl2_1663591272_gg.jpg&w=640&q=75",
+        "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages1.kabum.com.br%2Fprodutos%2Ffotos%2F385191%2Fconsole-nintendo-switch-joy-con-neon-mario-kart-8-deluxe-3-meses-de-assinatura-nintendo-switch-online-azul-e-vermelho-hbdskabl2_1663591269_gg.jpg&w=640&q=75"
+      ],
+      "titulo": "Console Nintendo Switch Joy-Con Neon + Mario Kart 8 Deluxe + 3 Meses Nintendo Switch Online",
+      "descricao": "Bundle completo do Nintendo Switch com Joy-Con Neon (azul e vermelho), incluindo o aclamado Mario Kart 8 Deluxe e 3 meses de assinatura Nintendo Switch Online.",
+      "preco": 2299.90,
+      "categoria": 1,
+      "avaliacao": {
+        "nota": 4.8,
+        "total_avaliacoes": 1205
+      }
+    },
+    {
+      "id": 5,
+      "cover": "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages0.kabum.com.br%2Fprodutos%2Ffotos%2F875830%2Fjogo-super-mario-party-jamboree-jamboree-tv-nintendo-switch-2-nt000050nsw_1748023928_gg.jpg&w=640&q=75",
+      "gallery": [
+        "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages0.kabum.com.br%2Fprodutos%2Ffotos%2F875830%2Fjogo-super-mario-party-jamboree-jamboree-tv-nintendo-switch-2-nt000050nsw_1748023928_gg.jpg&w=640&q=75",
+        "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages0.kabum.com.br%2Fprodutos%2Ffotos%2F875830%2Fjogo-super-mario-party-jamboree-jamboree-tv-nintendo-switch-2-nt000050nsw_1748023929_gg.jpg&w=640&q=75",
+        "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages0.kabum.com.br%2Fprodutos%2Ffotos%2F875830%2Fjogo-super-mario-party-jamboree-jamboree-tv-nintendo-switch-2-nt000050nsw_1748023930_gg.jpg&w=640&q=75"
+      ],
+      "titulo": "Jogo Super Mario Party Jamboree + Jamboree TV, Nintendo Switch",
+      "descricao": "Jogo de festa com mais de 20 minijogos inéditos e 78 minijogos retrabalhados, com foco em interação e desafios variados. Compatível com Joy-Con 2, microfone integrado e HD Rumble 2.",
+      "preco": 499.91,
+      "categoria": 1,
+      "avaliacao": {
+        "nota": 4.8,
+        "total_avaliacoes": 25213
+      }
+    },
+    {
+      "id": 6,
+      "cover": "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages3.kabum.com.br%2Fprodutos%2Ffotos%2F483323%2Fjogo-pokemon-violet-nintendo-switch-hbcpalzya_1736800641_gg.jpg&w=640&q=75",
+      "gallery": [
+        "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages3.kabum.com.br%2Fprodutos%2Ffotos%2F483323%2Fjogo-pokemon-violet-nintendo-switch-hbcpalzya_1736800641_gg.jpg&w=640&q=75",
+        "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages3.kabum.com.br%2Fprodutos%2Ffotos%2F483323%2Fjogo-pokemon-violet-nintendo-switch-hbcpalzya_1736800635_gg.jpg&w=640&q=75",
+        "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages3.kabum.com.br%2Fprodutos%2Ffotos%2F483323%2Fjogo-pokemon-violet-nintendo-switch-hbcpalzya_1736800636_gg.jpg&w=640&q=75",
+        "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages3.kabum.com.br%2Fprodutos%2Ffotos%2F483323%2Fjogo-pokemon-violet-nintendo-switch-hbcpalzya_1736800639_gg.jpg&w=640&q=75"
+      ],
+      "titulo": "Jogo Pokémon Violet, Nintendo Switch",
+      "descricao": "Entre na região de Paldea e embarque em uma jornada Pokémon de mundo aberto. Descubra novos Pokémon, explore territórios vastos e viva aventuras épicas. Aventura e RPG no mundo aberto de Paldea, com exploração livre e histórias cativantes.",
+      "preco": 314.10,
+      "categoria": 1,
+      "avaliacao": {
+        "nota": 4.5,
+        "total_avaliacoes": 1456
+      }
+    },
+    {
+      "id": 7,
+      "cover": "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages4.kabum.com.br%2Fprodutos%2Ffotos%2F479144%2Fjogo-super-mario-bros-wonder-switch-hbcpaqmxa_1692127592_gg.jpg&w=640&q=75",
+      "gallery": [
+        "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages4.kabum.com.br%2Fprodutos%2Ffotos%2F479144%2Fjogo-super-mario-bros-wonder-switch-hbcpaqmxa_1692127593_gg.jpg&w=640&q=75",
+        "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages4.kabum.com.br%2Fprodutos%2Ffotos%2F479144%2Fjogo-super-mario-bros-wonder-switch-hbcpaqmxa_1692127598_gg.jpg&w=640&q=75",
+        "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages4.kabum.com.br%2Fprodutos%2Ffotos%2F479144%2Fjogo-super-mario-bros-wonder-switch-hbcpaqmxa_1692127595_gg.jpg&w=640&q=75",
+        "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages4.kabum.com.br%2Fprodutos%2Ffotos%2F479144%2Fjogo-super-mario-bros-wonder-switch-hbcpaqmxa_1692127599_gg.jpg&w=640&q=75"
+      ],
+      "titulo": "Jogo Super Mario Bros. Wonder, Nintendo Switch",
+      "descricao": "A jogabilidade clássica de deslocamento lateral dos jogos do Mario virou de ponta-cabeça com a chegada das flores fenomenais. Estes itens revolucionários ativam momentos tão espetaculares que é preciso ver para crer!",
+      "preco": 351.99,
+      "categoria": 1,
+      "avaliacao": {
+        "nota": 4.9,
+        "total_avaliacoes": 876
+      }
+    },
+    {
+      "id": 8,
+      "cover": "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages1.kabum.com.br%2Fprodutos%2Ffotos%2F483321%2Fjogo-super-mario-odyssey-nintendo-switch-hbcpaaaca_1736344344_gg.jpg&w=640&q=75",
+      "gallery": [
+        "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages1.kabum.com.br%2Fprodutos%2Ffotos%2F483321%2Fjogo-super-mario-odyssey-nintendo-switch-hbcpaaaca_1736344344_gg.jpg&w=640&q=75",
+        "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages1.kabum.com.br%2Fprodutos%2Ffotos%2F483321%2Fjogo-super-mario-odyssey-nintendo-switch-hbcpaaaca_1734003461_gg.jpg&w=640&q=75",
+        "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages1.kabum.com.br%2Fprodutos%2Ffotos%2F483321%2Fjogo-super-mario-odyssey-nintendo-switch-hbcpaaaca_1734003463_gg.jpg&w=640&q=75",
+        "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages1.kabum.com.br%2Fprodutos%2Ffotos%2F483321%2Fjogo-super-mario-odyssey-nintendo-switch-hbcpaaaca_1734003465_gg.jpg&w=640&q=75"
+      ],
+      "titulo": "Jogo Super Mario Odyssey, Nintendo Switch",
+      "descricao": "Uma Aventura Inesquecível com Mario e Cappy Prepare-se para embarcar em uma jornada épica com Mario e seu novo aliado, Cappy! Nesta surpreendente aventura 3D, você vai explorar mundos incríveis e completamente diferentes do Reino Cogumelo. Cada cenário é repleto de desafios, mistérios e possibilidades. É hora de sair da zona de conforto e viver uma experiência que vai mudar tudo o que você conhece sobre Mario!",
+      "preco": 314.10,
+      "categoria": 1,
+      "avaliacao": {
+        "nota": 4.9,
+        "total_avaliacoes": 2341
+      }
+    }
+  ]
+}
